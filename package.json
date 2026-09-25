@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-tx-dmv",
-  "version": "0.1.0",
-  "description": "Texas DMV: statewide registered vehicle totals by fiscal year",
+  "version": "0.1.1",
+  "description": "Texas DMV MCP — statewide vehicle, pickup and motorcycle registration totals by fiscal",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-tx-dmv": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "tx-dmv"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-tx-dmv"
+    "url": "git+https://github.com/pipeworx-io/mcp-tx-dmv.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d917eca09173bc94b7835c2ef98c71915cecba952ff28d4bc745011bedf85111",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
