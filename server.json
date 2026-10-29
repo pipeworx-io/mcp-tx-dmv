@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/tx-dmv",
   "title": "Tx Dmv",
-  "description": "Texas DMV MCP — statewide vehicle, pickup and motorcycle registration totals by fiscal",
-  "version": "0.1.1",
+  "description": "Texas DMV MCP — statewide vehicle, pickup and motorcycle registration totals by fiscal year, from…",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/tx-dmv",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-tx-dmv",
