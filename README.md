@@ -3,7 +3,7 @@
 Texas DMV (TxDMV) MCP — statewide vehicle, pickup and motorcycle registration totals by
 fiscal year, from TxDMV's own published series.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1857+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -43,7 +43,7 @@ FY2021 = 25,236,442.
 
 - `https://data.texas.gov/resource/cbmj-zeje.json` — TxDMV "Passenger Vehicle, Motorcycle,
   and Pickup Truck Registrations by Year". 21 rows, FY2001–FY2021.
-- `https://data.texas.gov/api/views/cbmj-zeje.json` — `rowsUpdatedAt`, used for `as_of`.
+- Texas DMV (TxDMV) — `rowsUpdatedAt`, used for `as_of`.
 
 The three `*_of_all_vehicles` columns are fractions of 1 (`0.5831`), not percentages; the pack
 converts them to percentages. `fiscal_year` is stored as text, so it is filtered with a string
@@ -93,7 +93,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1857+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-tx-dmv",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Texas DMV MCP — statewide vehicle, pickup and motorcycle registration totals by fiscal year, from TxDMV's own published series. Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "tx-dmv",
     "gatewaySlug": "tx-dmv",
-    "sourceHash": "v1-bb3aa527368aefeeab2299299e0b65db84c7e1c9da3fe85f60fc1f28cb5dbde7",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-85c5eba8bccf18d75f030e785f6e812c53d899f240e46a272fd25556b6e687a2",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
